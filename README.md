@@ -8,6 +8,6 @@ To play in the commandline just run the backend.
 
 ## Play in the browser
 
-To play in the browser run the backend and also run the cocktail-game-frontend with the following commands: ``` npm install ``` and ``` npm run dev ```. Then access the site in here: localhost:3001
+To play in the browser run the backend and the cocktail-game-frontend with the following commands: ``` npm install ``` and ``` npm run dev ```. Then access the site in here: localhost:3001
 
-## Happy playing!
+### Happy playing!
