@@ -4,7 +4,7 @@ This is a game where the player has to guess the cocktail's name by the number o
 
 ## Play in the commandline
 
-To play in the commandline just run the backend.
+To play in the command line just run the backend.
 
 ## Play in the browser
 
