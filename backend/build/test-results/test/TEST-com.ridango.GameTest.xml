@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ridango.GameTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2024-09-15T12:24:33" hostname="samanta-HP" time="0.339">
+  <properties/>
+  <testcase name="oldFactsAreClearedWhenNewCocktailIsGivenTest()" classname="com.ridango.GameTest" time="0.286"/>
+  <testcase name="correctGuessTest()" classname="com.ridango.GameTest" time="0.003"/>
+  <testcase name="hideAllAlphanumericalsTest()" classname="com.ridango.GameTest" time="0.004"/>
+  <testcase name="oneCocktailDoesNotRepeatTest()" classname="com.ridango.GameTest" time="0.003"/>
+  <testcase name="incorrectGuessTest()" classname="com.ridango.GameTest" time="0.002"/>
+  <testcase name="lettersAreRevealedTest()" classname="com.ridango.GameTest" time="0.007"/>
+  <testcase name="allAttemptsUsedTest()" classname="com.ridango.GameTest" time="0.003"/>
+  <testcase name="instructionsAreResetAfterNewCocktailIsGivenTest()" classname="com.ridango.GameTest" time="0.004"/>
+  <testcase name="doesNotShowWholeWordTest()" classname="com.ridango.GameTest" time="0.002"/>
+  <testcase name="showInstructionsTest()" classname="com.ridango.GameTest" time="0.003"/>
+  <testcase name="initializeGameTest()" classname="com.ridango.GameTest" time="0.003"/>
+  <testcase name="factsAreResetWhenNewCocktailIsGivenTest()" classname="com.ridango.GameTest" time="0.003"/>
+  <testcase name="skippingRoundTest()" classname="com.ridango.GameTest" time="0.002"/>
+  <testcase name="showHintTest()" classname="com.ridango.GameTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
