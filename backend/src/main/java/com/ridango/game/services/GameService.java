@@ -2,7 +2,6 @@ package com.ridango.game.services;
 
 import com.ridango.domain.Cocktail;
 import com.ridango.dto.GameStatusDTO;
-import lombok.Getter;
 import org.json.JSONException;
 import org.springframework.stereotype.Service;
 
@@ -90,7 +89,7 @@ public class GameService {
     private void showHint() {
         long lettersLeftToShow = howManyUnderscoresInHiddenName();
 
-        // Ensure that atleast one letter stays hidden
+        // Ensure that at least one letter stays hidden
         if (lettersLeftToShow - lettersShownEachRound <= 1) {
             lettersShownEachRound = Math.max(lettersLeftToShow - 1, 0);
         }
@@ -142,11 +141,4 @@ public class GameService {
     public GameStatusDTO getGameStatus() {
         return new GameStatusDTO(currentCocktail.name(), lettersShownToPlayer, currentCocktail.instructions(), facts, score, attemptsLeft, isGameLost());
     }
-
-
-
-
-
-
-
 }
